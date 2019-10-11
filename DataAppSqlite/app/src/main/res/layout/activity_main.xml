@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add OR View Data"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addActivity"
+        android:text="add data"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_btn"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:text="view data"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_btn"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"/>
+
+
+</LinearLayout>

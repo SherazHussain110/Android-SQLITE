@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".AddDataActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Contacts"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_name"
+                android:hint=" Enter Your Name"
+                android:layout_marginTop="25dp"
+                android:textColor="#000000"
+                android:background="@drawable/bg_edit" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f_name"
+                android:hint=" Enter Your Father Name"
+                android:layout_marginTop="25dp"
+                android:textColor="#000000"
+                android:background="@drawable/bg_edit"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone"
+                android:hint=" Enter Your Phone Number"
+                android:layout_marginTop="25dp"
+                android:inputType="phone"
+                android:textColor="#000000"
+                android:background="@drawable/bg_edit"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:hint=" Enter Your Email"
+                android:layout_marginTop="25dp"
+                android:inputType="textEmailAddress"
+                android:textColor="#000000"
+                android:background="@drawable/bg_edit"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/addData"
+                android:text="add data"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
